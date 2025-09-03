@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color-fondos:#fffff5;
+    --color-primario: #f70f7b; 
+    --boder-radius-1: .25rem;
+    --color-2: #b738db; 
+    --font-size: 1rem;
+    --font-family-1: 'Roboto', sans-serif;
+
+}
+
+.miClase {
+
+background-color: var(--color-2);
+
+}
+
+/*
+ a todos los h1
+*/
+
+h1 {
+
+background-color: var(--color-2);
+
+}
+
+html,body {
+
+margin:0;
+padding:0;
+background-color: var(--color-2);
+color: var (--color-primario);
+font-size: var(--font-size);
+font-family: var(--font-family-1);
+}
